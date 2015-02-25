@@ -259,55 +259,68 @@ Intro film: %\url{http://www.actel.com/FPGA/SmartFusion/video/intro_hires.html}
 \section{Overzicht Design Flow}
 %=============================================================================================================================%
 
+% \begin{frame} 
+% \frametitle{Placeholder}
+%   \begin{itemize}[<+->]
+%     \item placeholder
+%   \end{itemize}
+% \end{frame}
+
+%=============================================================================================================================%
+\subsection{Configuratie SoC}
+%=============================================================================================================================%
+
 \begin{frame} 
-\frametitle{Placeholder}
-  \begin{itemize}[<+->]
-    \item placeholder
+\frametitle{Configuratie SoC}
+  \begin{itemize}
+    \item Gebeurt m.b.v. ``Libero: MSS Configurator''
+    \item Configureer de microcontroller
+    \begin{itemize}
+      \item Stel in welke I/O devices actief zijn
+      \item Stel klokfrequentie van de microcontroller in
+    \end{itemize}
+    \item Plaats eventueel extra schakelingen in de FPGA
   \end{itemize}
 \end{frame}
 
 %=============================================================================================================================%
-\subsection{Configuratie Microcontroller}
+\subsection{Hardware ``Synthese''}
 %=============================================================================================================================%
 
 \begin{frame} 
-\frametitle{Placeholder}
+\frametitle{Hardware ``Synthese''}
   \begin{itemize}[<+->]
-    \item placeholder
+    \item Gebeurt m.b.v. ``Synplify Pro''
+    \item Doorloop de nodige stappen op de configuratie uit de vorige stap om te vormen tot een bestand dat kan geupload worden naar de SoC
+    \item Deze stappen verlopen ons geval zo goed als automatisch: mits de juiste instellingen zijn gekozen
+      \begin{itemize}
+      \item Welke FPGA/SoC is in gebruik
+      \item Zijn de licentie van de software tools correct ge\"installeerd
+      \end{itemize}
   \end{itemize}
 \end{frame}
 
 %=============================================================================================================================%
-\subsection{Hardware Synthese}
+\subsection{Programmeren SoC}
 %=============================================================================================================================%
 
 \begin{frame} 
-\frametitle{Placeholder}
+\frametitle{Programmeren SoC}
   \begin{itemize}[<+->]
-    \item placeholder
+    \item Gebeurt m.b.v. ``Flashpro''
+    \item Uploaden van het hardware design naar de SoC
+    \item Indien je in de vorige stap het hardware designbestand opslaat kan je in volgende projecten/oefeningen waar dezelfde configuratie nodig is de voorgaande stappen overslaan.
   \end{itemize}
 \end{frame}
 
 %=============================================================================================================================%
-\subsection{Programmeren FPGA}
+\subsection{Software/Firmware Ontwikkeling}
 %=============================================================================================================================%
 
 \begin{frame} 
-\frametitle{Placeholder}
+\frametitle{Software/Firmware Ontwikkeling}
   \begin{itemize}[<+->]
-    \item placeholder
-  \end{itemize}
-\end{frame}
-
-%=============================================================================================================================%
-\subsection{Firmware Ontwikkeling}
-%=============================================================================================================================%
-
-\begin{frame} 
-\frametitle{Placeholder}
-  \begin{itemize}[<+->]
-    \item placeholder
-  \end{itemize}
+    \item Gebeurt m.b.v. ``Softconsole (een re-branded Eclipse IDE)''
 \end{frame}
 
 %=============================================================================================================================%
@@ -317,7 +330,7 @@ Intro film: %\url{http://www.actel.com/FPGA/SmartFusion/video/intro_hires.html}
 \begin{frame} 
 \frametitle{Placeholder}
   \begin{itemize}[<+->]
-    \item placeholder
+    \item Gebeurt m.b.v. ``GDB/OpenOCD''
   \end{itemize}
 \end{frame}
 
