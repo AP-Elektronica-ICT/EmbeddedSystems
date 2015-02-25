@@ -11,8 +11,8 @@ Tools
 
 ## SmartFusion Evaluation Board}
 
-![SmartFusion Evaluation Board](/images/SmartFusion.jpeg?raw=true "SmartFusion Evaluation Board")
+![SmartFusion Evaluation Board](/Labs/images/SmartFusion.jpeg?raw=true "SmartFusion Evaluation Board")
 
 Intro film: 
 
-[![Intro film](/images/youtube.png?raw=true "Intro film")](http://www.youtube.com/watch?v=KY9eKF0llms)
+[![Intro film](/Labs/images/youtube.png?raw=true "Intro film")](http://www.youtube.com/watch?v=KY9eKF0llms)
