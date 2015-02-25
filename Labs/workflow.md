@@ -80,14 +80,12 @@ Door de twee te combineren kunnen we de voordelen van de twee types combineren.
  * Daarnaast kan de toepassing eenvoudig via de UART met een PC verbonden worden.
  * Dit alles zonder de echte hardware te moeten aanpassen. (``zonder soldeerbout'')
 
-
 Microsemi SmartFusion
 
 TODO: add images
 
  * Alternatieven: Zynq-7000 (Xilinx)
  * Alternatieven: Atom E6x5C Serie (Intel/Altera)}
-
 
 # Overzicht Design Flow}
 
