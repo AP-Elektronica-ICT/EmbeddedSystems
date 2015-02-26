@@ -1,6 +1,6 @@
 # UART 
 Schrijf embedded software voor de Cortex M3 in het SmartFusion ontwikkelbord die via de UART met een PC communiceert.
- * Configureer de microcontroller en zijn IO
+ * Configureer de microcontroller en zijn I/O (voor dit labo: schakel alle I/O behalve de UART uit)
  * Schrijf en compileer een elementair C programma m.b.v. SoftConsole
  * Upload het programma naar het ontwikkelbord
  * Analyseer de correcte werking aan de hand van on-chip debugging.
@@ -85,4 +85,4 @@ Identiek verloop voor de andere letters van het alfabet.
 Als een cijfer, bijvoorbeeld 3, wordt doorgestuurd wordt de volgende tekst afgedrukt:
  * Getallenreeks:  3, 9, 27, 81
 
-Als het geen letter uit ons alfabet of een cijfer was stuur je de tekst "Error" terug.
+Als het geen letter uit ons alfabet noch een cijfer was stuur je de tekst "Error" terug.

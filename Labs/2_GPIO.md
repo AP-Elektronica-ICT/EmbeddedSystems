@@ -8,5 +8,18 @@ Configuur het hardware platform zodat je gebruik kan maken van de LEDs op het on
  
 Voeg de benodigde code voor dit labo aan je eigen bibliotheek toe. (myLib.h en myLib.c)
 
+## Uitlezen pushbutton
+
+## LED Toggle
+Zorg er voor dat de acht LEDs via een commando via de UART aan en uit gezet kunnen worden.
+
+Iedere LED krijgt een identificatie van 0 tot 7.
+Wanneer je een getal tussen 0 en 7 via de UART doorstuurt zal deze LED zijn waarde inverteren. (aan -> uit, uit -> aan)
+
+## LED Counter
+Druk pushbutton, reactie op LED
+
+
+
 Meer info: 
- * http://coredocs.s3.amazonaws.com/Libero/SmartFusionMSS/MSS_I2C/mss_i2c_config_ug_2.pdf (via: http://www.microsemi.com/products/fpga-soc/soc-fpga/smartfusion#documents)
+ * http://TODO (via: http://www.microsemi.com/products/fpga-soc/soc-fpga/smartfusion#documents)
