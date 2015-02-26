@@ -17,7 +17,7 @@ Voeg de nodige bewijsstukken toe:
 Geef dit document af via Blackboard. 
 De inleverdeadline wordt vermeld op Blackboard.
 
-## Inleiding
+### Getting started
 Download en installeer de Microsemi Libero SOC1 ontwikkelomgeving op je laptop.
 De installatie bestanden zijn beschikbaar tijdens de les op USB stick (en voor of na de les in mijn bureau).
 
@@ -28,7 +28,7 @@ beschikbaar.
  * http://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/smartfusion/smartfusion-evaluation-kit
  * http://www.actel.com/FPGA/SmartFusion (oude website)
 
-### UART voorbeeldprogramma: "Hello World"
+## 1. UART voorbeeldprogramma: "Hello World"
 Installeer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
 Bestudeer en pas het programma aan zodat je de werking goed begrijpt.
 
@@ -46,7 +46,7 @@ De benodigde info om de wizard correct te doorlopen staat echter wel in deze tut
 
 Van deze opgave verwacht ik niets in je verslag.
 
-### Software Bibliotheek
+## 2. Software Bibliotheek
 Pas het voorbeeldprogramma aan door een eigen bibliotheek aan het project toe te voegen. (myLib.h en myLib.c)
 
 Voeg de bibliotheek toe door rechts te klikken op het "app" project en selecteer "new -> header file" en nadien "new -> c source file". 
@@ -68,7 +68,7 @@ Voorzie bovenaan de bibliotheek de nodige gegevens:
  * Korte omschrijving van de bibliotheek
  * Versie geschiedenis (indien van toepassing)
  
-### UART read/write
+## 3. UART read/write
 Pas het voorbeeldprogramma aan zodat characters die door de gebruiker worden ingetypt in het "putty-venster" worden ingelezen door de microcontroller. 
 
 Maak gebruik van de nodige functies (en voorbeeldcode) uit de UART bibliotheek om dit te implementeren met behulp van de correcte interrupt service routine.
