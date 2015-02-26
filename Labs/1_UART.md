@@ -1,17 +1,16 @@
 # UART 
-
-Ontwikkelen van embedded software met behulp van SoftConsole
-
-### Doelstellingen
- * Je programmeert de SmartFusion evaluation kit voor gebruik als Cortex-M3 gebaseerd embedded system.
- * Je schrijft een elementair C programma en voert dit uit op de Cortex-M3 microcontroller.
- * Je analyseert de correcte werking aan de hand van on-chip debugging.
+Schrijf embedded software voor de Cortex M3 in het SmartFusion ontwikkelbord die via de UART met een PC communiceert.
+ * Configureer de microcontroller en zijn IO
+ * Schrijf en compileer een elementair C programma m.b.v. SoftConsole
+ * Upload het programma naar het ontwikkelbord
+ * Analyseer de correcte werking aan de hand van on-chip debugging.
+ * Communiceer via de seriële poort met het ontwikkelbord
 
 ### Verslaggeving
 Maak één gecomprimeerd .zip bestand dat alle gevraagde documenten bevat.
 
 Voeg de nodige bewijsstukken toe:
- * De originele C broncode en ARM assembly code: (alle SoftConsole bestanden) (geef duidelijk aan welke files bij welke opgave behoren)
+ * De originele C broncode: (alle SoftConsole bestanden) (geef duidelijk aan welke files bij welke opgave behoren)
  * Verslag in pdf formaat met een bespreking van de werking van de zelf geschreven/toegevoegde code.
 
 Geef dit document af via Blackboard. 
@@ -77,13 +76,13 @@ Voor elke functie staat hier steeds uitgelegd wat de return value is, wat de bet
 
 Laat je programma als volgt reageren op de ontvangen data:
 
-Als een letter, bijvoorbeeld “a”, wordt doorgestuurd door de gebruiker wordt de volgende tekst afgedrukt:
- * ‘De letter was:  a, de uppercase letter van a is A
- * ‘De letter was:  A, de lowercase letter van A is a
+Als een letter, bijvoorbeeld "a", wordt doorgestuurd door de gebruiker wordt de volgende tekst afgedrukt:
+ * De letter was:  a, de uppercase letter van a is A
+ * De letter was:  A, de lowercase letter van A is a
  
 Identiek verloop voor de andere letters van het alfabet.
 
 Als een cijfer, bijvoorbeeld 3, wordt doorgestuurd wordt de volgende tekst afgedrukt:
  * Getallenreeks:  3, 9, 27, 81
 
-Als het geen letter uit ons alfabet of een cijfer was stuur je de tekst ‘‘Error’’ terug.
+Als het geen letter uit ons alfabet of een cijfer was stuur je de tekst "Error" terug.
