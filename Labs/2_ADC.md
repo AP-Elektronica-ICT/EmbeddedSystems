@@ -18,19 +18,22 @@ Bestudeer en pas het programma eventueel een beetje aan zodat je de werking goed
 
 In de tutorial worden de General-purpose input/output (GPIO) pinnen ook ingesteld zodat de vier leds mee aangaan wanneer je aan de potentiometer draait.
 Je mag dit reeds instellen, maar in principe is dit een deel van opdracht 3.
- * Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie weer via de UART.
+Hierdoor moet je de ACE flags bijgevolg ook niet instellen.
+De flags worden in de voorbeeldtoepassing namelijk gebruikt om de LEDs aan te sturen.
+
+Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie weer via de UART.
 
 Wanneer je aan de potentiometer draait worden deze gegevens live aangepast.
  * Voorbeeld output: ``Spanning : 2,52 Volt``
 
 ## 2.2. Uitlezen ADC 2
 De ADC2 input van de microcontroller is via de PCB verbonden met de mixed-signal header. 
- * Verbindt een potentiometer met de ADC2 input. 
- * Neem Vcc en GND ook via de mixed-signal header zodat je GND referentie zeker correct is.
+ * Verbind een externe/extra potentiometer met de ADC2 input. 
+ * Neem de Vcc en GND voor de potentiometer ook via de mixed-signal header zodat je GND referentie zeker correct is.
 
 Bestudeer het 
 [smartfusion schema (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/4_Hardware/0_Actel_SmartFusion_a2f_eval_schematic.pdf)
-om de juiste pinnen te vinden.
+om de juiste pinnen te vinden (de mixed signal connector staat op pagina 13).
  * Stel de ACE correct in om deze input ook in je software te kunnen gebruiken.
  * Lees de waarde van een externe potentiometer uit d.m.v. de ADC en geef deze informatie weer via de UART.
 
