@@ -5,13 +5,13 @@ Website voor het vak "Embedded Systems 4" aan de Artesis Plantijn Hogeschool Ant
 Contact info: jeroen.doggen@ap.be
 
 ## Inhoud
- * [Inleiding](Labs/inleiding.md)
- * [Workflow](Labs/workflow.md)
+ * [Inleiding](/Labs/inleiding.md)
+ * [Workflow](/Labs/workflow.md)
  * [ARM slides (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Slides/2_arm/2_arm.pdf)
- * [Opgave 1: UART](Labs/1_UART.md)
- * [Opgave 2: ADC](Labs/2_ADC.md)
- * [Opgave 3: GPIO](Labs/3_GPIO.md) 
- * [Opgave 4: OLED](Labs/4_OLED.md)
+ * [Opgave 1: UART](/Labs/1_UART.md)
+ * [Opgave 2: ADC](/Labs/2_ADC.md)
+ * [Opgave 3: GPIO](/Labs/3_GPIO.md) 
+ * [Opgave 4: OLED](/Labs/4_OLED.md)
  
 ## Documentatie
 Al deze documenten zijn manueel van de Microsemi website gehaald.
