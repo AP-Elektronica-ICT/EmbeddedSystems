@@ -1,4 +1,4 @@
-# 2. GPIO - ADC --> Draft versie!
+# 3. GPIO
 
 Configuur het hardware platform zodat je gebruik kan maken van de LEDs op het ontwikkelbord.
  * De GPIO pinnen: verbindt de eigenlijke pinnen op de PCB met de pinnen van de microcontroller
@@ -18,19 +18,40 @@ Voeg de nodige bewijsstukken toe:
 Geef dit document af via Blackboard. 
 De inleverdeadline wordt vermeld op Blackboard.
 
+### Configureren hardware
+Bekijk het voorbeeldprogramma beschreven in de tutorial 
+[Displaying POT Values over UART - SoftConsole Standalone Flow Tutorial for SmartFusion cSoC.pdf (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/0_Tutorials/POT%20levels%20on%20UART/SmartFusion_SoftConsole_POTlevel_UART_tutorial_UG.pdf) 
+op het ontwikkelbord. 
+Op pagina 13 in dit document wordt beschreven hoe je de input en output pinnen kan instellen.
 
-## 2.1. Uitlezen en uitlezen van GPIO's
-Installeer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
-Bestudeer en pas het programma aan zodat je de werking goed begrijpt.
+Zorg er voor dat de acht LEDs en twee pushbuttons kan aansturen/uitlezen.
 
-## 2.1.1. LED Toggle
-Zorg er voor dat de acht LEDs via een commando via de UART aan en uit gezet kunnen worden.
+Meer info over de benodigde pinnen en instellingen kan je terugvinden op pagina 17 en 18 de 
+[SmartFusion Evaluation Kit - User's Guide (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/4_Hardware/1_A2F_Eval_Kit_UserGuide.pdf).
 
-Iedere LED krijgt een identificatie van 0 tot 7.
-Wanneer je een getal tussen 0 en 7 via de UART doorstuurt zal deze LED zijn waarde inverteren. (aan -> uit, uit -> aan)
 
-## 2.1.2. LED Counter
-Druk pushbutton, reactie op LED
+## 3.1. LED Toggle - UART
+Stuur een commando via de UART  om LEDs aan en uit gezet te zetten.
+ * Iedere LED krijgt een identificatie van 0 tot 7.
+ * Wanneer je een getal tussen 0 en 7 via de UART doorstuurt zal deze LED zijn waarde inverteren. (aan -> uit, uit -> aan)
+
+## 3.2. Drukknop teller - UART/LED
+Laat de LEDs een telsequentie weergeven die weergeeft hoeveel keer de drukknop reeds werd ingedrukt.
+ * Aanvankelijk zijn alle LEDs uitgeschakeld
+ * Bij iedere druk op een drukknop gaat het aantal met één omhoog
+ * Geef dit aantal weer via de UART
+ * Geef dit aantal weer d.m.v. de LEDs. (geef het aantal keer dat er gedrukt is weer als een 8-bit binair getal)
+ 
+## 3.3. Potentiometer & LEDs
+Lees de spanning over de ingebouwde potentiometer uit en geef deze waarde visueel weer door het aantal aangeschakelde LEDs te verhogen wanneer de spanning toeneemt.
+Hoe hoger de ingangspanning, hoe meer LEDs branden. (cfr. VU meter)
+
+## 3.4. Modus selectie
+Maak gebruik van twee drukknops om te wisselen tussen de drie voorgaande modi.
+ * met drukknop één schakel je tussen de drie modi
+ * met drukknop twee kan je het aantal pulsen tellen (zie opdracht 3.2)
+
+
 
 
 

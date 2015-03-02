@@ -1,4 +1,4 @@
-# 2. ADC -- Draft versie!
+# 2. ADC
 
 Configuur het hardware platform zodat je gebruik kan maken van de ADCs op het ontwikkelbord.
  * De ADC pinnen: verbindt de eigenlijke pinnen op de PCB met de pinnen van de microcontroller
@@ -23,7 +23,7 @@ Je mag dit reeds instellen, maar in principe is dit een deel van opdracht 3.
 Wanneer je aan de potentiometer draait worden deze gegevens live aangepast.
  * Voorbeeld output: ``Spanning : 2,52 Volt``
 
-## 2.1. Uitlezen ADC 2
+## 2.2. Uitlezen ADC 2
 De ADC2 input van de microcontroller is via de PCB verbonden met de mixed-signal header. 
  * Verbindt een potentiometer met de ADC2 input. 
  * Neem Vcc en GND ook via de mixed-signal header zodat je GND referentie zeker correct is.
@@ -36,8 +36,3 @@ om de juiste pinnen te vinden.
 
 Wanneer je aan de potentiometer draait worden deze gegevens live aangepast.
  * Voorbeeld output: ``Spanning : 2,52 Volt``
-
-## Aansturen LEDs
-Lees de spanning over de ingebouwde potentiometer uit en geef deze waarde visueel weer door het aantal aangeschakelde LEDs te verhogen wanneer de spanning toeneemt.
-Hoe hoger de ingangspanning, hoe meer LEDs branden. (cfr. VU meter)
-
