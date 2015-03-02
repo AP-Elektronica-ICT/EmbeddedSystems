@@ -19,8 +19,8 @@ Geef dit document af via Blackboard.
 De inleverdeadline wordt vermeld op Blackboard.
 
 ### Configureren hardware
-Bekijk het voorbeeldprogramma beschreven in de tutorial 
-[Displaying POT Values over UART - SoftConsole Standalone Flow Tutorial for SmartFusion cSoC.pdf (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/0_Tutorials/POT%20levels%20on%20UART/SmartFusion_SoftConsole_POTlevel_UART_tutorial_UG.pdf) 
+Bekijk het voorbeeldprogramma beschreven in de tutorial
+[Displaying POT Level with LEDs Libero SoC and SoftConsole Flow Tutorial for a SmartFusion cSoC (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/0_Tutorials/POT%20levels%20on%20LED/SmartFusion_LiberoSoftConsole_POTlevel_tutorial_UG.pdf) 
 op het ontwikkelbord. 
 Op pagina 13 in dit document wordt beschreven hoe je de input en output pinnen kan instellen.
 
