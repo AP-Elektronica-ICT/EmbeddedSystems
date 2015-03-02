@@ -7,6 +7,7 @@ Contact info: jeroen.doggen@ap.be
 ## Inhoud
  * [Inleiding](Labs/inleiding.md)
  * [Workflow](Labs/workflow.md)
+ * [ARM slides (pdf)](Slides/2_arm/2_arm.pdf)
  * [Opgave 1: UART](Labs/1_UART.md)
  * [Opgave 2: GPIO](Labs/2_GPIO.md)
  * [Opgave 3: ADC](Labs/3_ADC.md) 
