@@ -50,10 +50,3 @@ Hoe hoger de ingangspanning, hoe meer LEDs branden. (cfr. VU meter)
 Maak gebruik van twee drukknops om te wisselen tussen de drie voorgaande modi.
  * met drukknop één schakel je tussen de drie modi
  * met drukknop twee kan je het aantal pulsen tellen (zie opdracht 3.2)
-
-
-
-
-
-Meer info: 
- * http://TODO (via: http://www.microsemi.com/products/fpga-soc/soc-fpga/smartfusion#documents)
