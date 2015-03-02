@@ -1,4 +1,4 @@
-# UART 
+# 1. UART 
 Schrijf embedded software voor de Cortex M3 in het SmartFusion ontwikkelbord die via de UART met een PC communiceert.
  * Configureer de microcontroller en zijn I/O (voor dit labo: schakel alle I/O behalve de UART uit)
  * Schrijf en compileer een elementair C programma m.b.v. SoftConsole
@@ -27,7 +27,7 @@ beschikbaar.
  * http://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/smartfusion/smartfusion-evaluation-kit
  * http://www.actel.com/FPGA/SmartFusion (oude website)
 
-## 1. UART voorbeeldprogramma: "Hello World"
+## 1.1. UART voorbeeldprogramma: "Hello World"
 Installeer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
 Bestudeer en pas het programma aan zodat je de werking goed begrijpt.
 
@@ -35,7 +35,7 @@ Vanaf versie 11.5 van Libero SoC is de flow voor het starten van een nieuw proje
 I.p.v. eerst Softconsole op te starten en daar Libero in te stellen als een "external tool" kan je nu in Libero de Wizard achter de knop "new project" volgen.
 Hierdoor zijn de stappen beschreven in de eerste vijftal pagina's van de tutorial zo goed als overbodig geworden.
 
-De benodigde info om de wizard correct te doorlopen staat echter wel in deze tutorial:
+De benodigde info om de wizard correct te doorlopen staat echter wel in de tutorial:
  * Family: SmartFusion
  * Type development kit: A2F200M3F
  * Package: 484 FBGA
@@ -45,7 +45,7 @@ De benodigde info om de wizard correct te doorlopen staat echter wel in deze tut
 
 Van deze opgave verwacht ik niets in je verslag.
 
-## 2. Software Bibliotheek
+## 1.2. Software Bibliotheek
 Pas het voorbeeldprogramma aan door een eigen bibliotheek aan het project toe te voegen. (myLib.h en myLib.c)
 
 Voeg de bibliotheek toe door rechts te klikken op het "app" project en selecteer "new -> header file" en nadien "new -> c source file". 
@@ -67,7 +67,7 @@ Voorzie bovenaan de bibliotheek de nodige gegevens:
  * Korte omschrijving van de bibliotheek
  * Versie geschiedenis (indien van toepassing)
  
-## 3. UART read/write
+## 1.3. UART read/write
 Pas het voorbeeldprogramma aan zodat characters die door de gebruiker worden ingetypt in het "putty-venster" worden ingelezen door de microcontroller. 
 
 Maak gebruik van de nodige functies (en voorbeeldcode) uit de UART bibliotheek om dit te implementeren met behulp van de correcte interrupt service routine.
@@ -77,12 +77,12 @@ Voor elke functie staat hier steeds uitgelegd wat de return value is, wat de bet
 Laat je programma als volgt reageren op de ontvangen data:
 
 Als een letter, bijvoorbeeld "a", wordt doorgestuurd door de gebruiker wordt de volgende tekst afgedrukt:
- * De letter was:  a, de uppercase letter van a is A
- * De letter was:  A, de lowercase letter van A is a
+ * ``De letter was:  a, de uppercase letter van a is A``
+ * ``De letter was:  A, de lowercase letter van A is a``
  
 Identiek verloop voor de andere letters van het alfabet.
 
 Als een cijfer, bijvoorbeeld 3, wordt doorgestuurd wordt de volgende tekst afgedrukt:
- * Getallenreeks:  3, 9, 27, 81
+ * ``Getallenreeks:  3, 9, 27, 81``
 
-Als het geen letter uit ons alfabet noch een cijfer was stuur je de tekst "Error" terug.
+Als het geen letter uit ons alfabet noch een cijfer was stuur je de tekst ``Error`` terug.

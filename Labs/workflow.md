@@ -10,8 +10,8 @@
  *  Vaststellen van een probleem of vraag naar een toepassing
  * Analyse van het probleem
  * Ontwerp van een conceptuele oplossing
- * Ontwerp van de hardware \footnote{Dit valt volledig binnen ons vakgebied.}
- * Ontwerp van de software \footnotemark[1]
+ * Ontwerp van de hardware (Dit valt volledig binnen ons vakgebied)
+ * Ontwerp van de software (Dit valt volledig binnen ons vakgebied)
  * Mechanisch/fysiek ontwerp
 
 
@@ -32,7 +32,9 @@
  * Uitvoeren gebruikerstests
 
 ## Embedded Hardware Design
- * Ontwerp van een hardware prototype op een breadboard (microcontroller schakeling)
+ * Ontwerp van een hardware prototype op eInstalleer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
+Bestudeer en pas het programma aan zodat je de werking goed begrijpt.Installeer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
+Bestudeer en pas het programma aan zodat je de werking goed begrijpt.en breadboard (microcontroller schakeling)
  * Ontwerp van een hardware prototype op een gatenprint
  * Ontwerp van printed-circuit board (PCB)
  * Productie van PCB (etsen/frezen)
@@ -53,7 +55,8 @@ Voordeel: flexibiliteit, aanpasbaarheid, vlotte communicatie tussen devices
 
 ## Embedded Software Design}
  * Ontwerp van een software architectuur: bouwstenen, lagen, functionele blokken,...
- * Schrijven/gebruiken van bibliotheken voor I/O interfacing
+ * Schrijven/gebruiken van bibliotheken voInstalleer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
+Bestudeer en pas het programma aan zodat je de werking goed begrijpt.or I/O interfacing
  * Ontwerp van een ``main'' applicatie: State machine, interrupt based, real-time operating system (RTOS),...
  * Bij normaal uitvoeren van een embedded toepassing: beperkt zicht op wat software aan het doen is
  * On-chip debuggen van de toepassing: toepassing stap-per-stap uitvoeren om fouten op te sporen (plaatsen breakpoints, geheugeninhoud bekijken \& aanpassen).
@@ -120,3 +123,5 @@ Gebeurt m.b.v. ``Flashpro''
 
 ## Firmware Debugging}
 Gebeurt m.b.v. ``GDB/OpenOCD''
+ * http://www.gnu.org/software/gdb
+ * http://openocd.sourceforge.net

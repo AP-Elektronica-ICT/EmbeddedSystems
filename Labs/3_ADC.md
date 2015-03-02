@@ -1,4 +1,4 @@
-# ADC -- Draft versie!
+# 3. ADC -- Draft versie!
 
 Configuur het hardware platform zodat je gebruik kan maken van de ADCs op het ontwikkelbord.
  * De ADC pinnen: verbindt de eigenlijke pinnen op de PCB met de pinnen van de microcontroller
@@ -8,6 +8,12 @@ Configuur het hardware platform zodat je gebruik kan maken van de ADCs op het on
  * Schrijf code om de ADCs uit te lezen
  
 Voeg de benodigde code voor dit labo aan je eigen bibliotheek toe. (myLib.h en myLib.c)
+
+## 3.1. Uitlezen ADC
+
+Installeer het voorbeeldprogramma beschreven in de "Displaying POT Values over UART - SoftConsole Standalone Flow Tutorial for SmartFusion cSoC.pdf" op het ontwikkelbord.
+Bestudeer en pas het programma aan zodat je de werking goed begrijpt.
+
 
 ## Uitlezen ADC
 Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie weer via de UART.
