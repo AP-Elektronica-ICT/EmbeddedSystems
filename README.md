@@ -19,8 +19,8 @@ Mogelijk is de versie op de website zelf recenter.
 Moest je een document tegenkomen waarvan een recentere versie bestaat, gelieve dit te melden zodat ik dit kan updaten.
 
 Belangrijkste documenten:
- * [User guide](Documentation/4_Hardware/1_A2F_Eval_Kit_UserGuide.pdf)
- * [Hardware schematic](Documentation/4_Hardware/0_Actel_SmartFusion_a2f_eval_schematic.pdf)
+ * [User guide (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/4_Hardware/1_A2F_Eval_Kit_UserGuide.pdf)
+ * [Hardware schematic (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/4_Hardware/0_Actel_SmartFusion_a2f_eval_schematic.pdf)
 
 Folder met documenten:
  * [Tutorials](Documentation/0_Tutorials)
