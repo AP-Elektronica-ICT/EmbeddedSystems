@@ -28,7 +28,10 @@ beschikbaar.
  * http://www.actel.com/FPGA/SmartFusion (oude website)
 
 ## 1.1. UART voorbeeldprogramma: "Hello World"
-Installeer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
+Installeer het voorbeeldprogramma beschreven in de 
+[smartfusion schema (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/0_Tutorials/UART%20SoftConsole%20Standalone/SmartFusion_UART_SW_flow_tutorial_UG.pdf)
+"SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
+
 Bestudeer en pas het programma aan zodat je de werking goed begrijpt.
 
 Vanaf versie 11.5 van Libero SoC is de flow voor het starten van een nieuw project iets eenvoudiger geworden.

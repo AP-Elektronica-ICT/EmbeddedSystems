@@ -1,4 +1,4 @@
-# 2. GPIO -- Draft versie!
+# 2. GPIO - ADC --> Draft versie!
 
 Configuur het hardware platform zodat je gebruik kan maken van de LEDs op het ontwikkelbord.
  * De GPIO pinnen: verbindt de eigenlijke pinnen op de PCB met de pinnen van de microcontroller
@@ -20,7 +20,6 @@ De inleverdeadline wordt vermeld op Blackboard.
 
 
 ## 2.1. Uitlezen en uitlezen van GPIO's
-
 Installeer het voorbeeldprogramma beschreven in de "SmartFusion UART SW flow tutorial UG.pdf" op het ontwikkelbord.
 Bestudeer en pas het programma aan zodat je de werking goed begrijpt.
 
