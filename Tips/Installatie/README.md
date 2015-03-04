@@ -5,6 +5,11 @@ Installeer de laatste versie van Libero SoC.
 
 Op dit ogenblik (maart 2015) is dat Libero SoC 11.5.
 
+## Alle tools installeren
+Vergeet niet om tijdens de installatie de volgende tools ook mee te installeren (aanvinken)
+ * SoftConsole
+ * Synplify Pro
+
 ## Installeer de COM port driver 
 (Windows only, op Linux/OSX is deze ingebouwd)
 Installeer de CP2102 Virtual com port driver van Silicon Labs.
@@ -24,3 +29,4 @@ De driver voor de Flashpro debugger (die in de ProASIC FPGA zit) bestaat voorlop
 
 Het is wel mogelijk om de driver te installeren op Windows 8 door de PC te herstarten in "recovery modus" en dan manueel de unsigned driver te installeren.
  * http://www.makeuseof.com/tag/how-can-i-install-hardware-with-unsigned-drivers-in-windows-8/
+

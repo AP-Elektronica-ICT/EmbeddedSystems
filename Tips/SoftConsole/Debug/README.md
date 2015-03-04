@@ -1,5 +1,15 @@
 # TIPS i.v.m. het debug proces
 
+## Breakpoint op regel 1 van main
+Om een een breakpoint op regel één van de main functie te plaatsen:
+ * Voeg de tekst "tb main" toe als laatste regel van de "commands" bij de instellingen van je debug configuratie (betekenis "tb" -> temporary breakpoint
+
+## Registers & variabelen:
+De inhoud van registers en variabelen is alleen zichtbaar wanneer deze "in scope" zijn (vanuit het standpunt van de program flow)
+Als je een bepaalde variabele toch de hele tijd zou willen zien dan moet je deze -tijdelijk- globaal maken.
+
+Om een willekeurige variabele toe te voegen aan het logging venster kan je rechts klikken op een variabele en "add watch expression" selecteren.
+
 
 ## No symbol "__vector_table_vma_base_address"
 Op pagina 25 van de release notes van SoftConsole 3.4 staat de oplossing voor de fout 'No symbol "__vector_table_vma_base_address" in current context.'.
