@@ -21,6 +21,11 @@ Je mag dit reeds instellen, maar in principe is dit een deel van opdracht 3.
 Hierdoor moet je de ACE flags bijgevolg ook niet instellen.
 De flags worden in de voorbeeldtoepassing namelijk gebruikt om de LEDs aan te sturen.
 
+Op pagina 23, 24 staat dat je het bestand ``newlibs_stub.c`` moet toevoegen in de build configuratie.
+Je mag deze stap overslaan.
+In de laaste versie van Libero gebeurt dit automatisch.
+Daarnaast is de uitleg ook niet volledig correct. (het bestand ``newlibs_stub.o`` zou moeten toegevoegd worden in die stap)
+
 Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie weer via de UART.
 
 Wanneer je aan de potentiometer draait worden deze gegevens live aangepast.
