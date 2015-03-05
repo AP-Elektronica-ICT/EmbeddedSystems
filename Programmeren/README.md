@@ -27,3 +27,8 @@ Het omzetten van een int in een char array kan je doen d.m.v.:
 Denk er aan om voldoende plaatsen te voorzien in je array. 
  
 Meer info: http://www.tutorialspoint.com/c_standard_library/c_function_sprintf.htm
+
+## Wat is de betekenis van het keyword 'volatile'
+
+A1:  http://www.embedded.com/story/OEG20010615S0107
+A2:  http://publications.gbdirect.co.uk/c_book/chapter8/const_and_volatile.html
