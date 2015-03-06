@@ -32,7 +32,7 @@ Typische problemen: SoftConsole start op zonder dat de projecten worden getoond,
 Onder Windows is er een harde limiet op de maximale lengte van "folder+filename".
 Als je een te lange foldernaam gebruikt kan je hierdoor problemen krijgen.
 
-### Aansturen LEDs (instellen pinnen)
+## Aansturen LEDs (instellen pinnen)
 In de tutorial i.v.m. het aansturen van de leds staat dat je appendix C moet bekijken als je niet over REV2+ van het bordje beschikt. 
 Wij beschikken niet over deze revisie en moeten de pinnen dus manueel instellen!
 
