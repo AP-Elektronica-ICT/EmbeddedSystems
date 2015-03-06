@@ -31,7 +31,7 @@ Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie we
 Wanneer je aan de potentiometer draait worden deze gegevens live aangepast.
  * Voorbeeld output: ``Spanning : 2,52 Volt``
 
-# 2.2 .Uitlezen ADC 2 (Extra oefening)
+## 2.2 .Uitlezen ADC 2 (Extra oefening)
 Deze oefening mag je maken, maar ze is niet verplicht.
 Enkele studenten hebben bij het fout aansluiten van de pinnen problemen met de hardware veroorzaakt. (stroompiek op USB poort)
 De pin meteen naast ADC2 is immers de GND. 
