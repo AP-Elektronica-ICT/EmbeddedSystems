@@ -1,0 +1,16 @@
+// Arduino Signal Filtering Library
+// Copyright 2012-2013 Jeroen Doggen (jeroendoggen@gmail.com)
+
+// Create a variable (to have something to look al while debugging
+int getal = 0;
+
+int main()
+{
+    // Repeat forever (cfr. the 'Arduino loop() function')
+	while( 1 )
+	{
+		getal++;
+		getal--;
+		getal++;
+	}
+}

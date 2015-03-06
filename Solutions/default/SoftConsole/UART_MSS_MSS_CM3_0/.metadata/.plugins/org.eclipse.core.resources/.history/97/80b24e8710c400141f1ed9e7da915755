@@ -1,0 +1,11 @@
+int getal = 0;
+
+int main()
+{
+	while( 1 )
+	{
+		getal++;
+		getal--;
+		getal++;
+	}
+}
