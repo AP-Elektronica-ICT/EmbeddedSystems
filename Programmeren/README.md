@@ -32,3 +32,20 @@ Meer info: http://www.tutorialspoint.com/c_standard_library/c_function_sprintf.h
 
 A1:  http://www.embedded.com/story/OEG20010615S0107
 A2:  http://publications.gbdirect.co.uk/c_book/chapter8/const_and_volatile.html
+
+## Online code testsen
+Via onderstaande website kan je online C code testen.
+ * http://www.tutorialspoint.com/compile_c_online.php
+ 
+Op de website staat een online:
+ * eenvoudige code editor
+ * compiler
+ * terminal venster waar je de output van de programma kan zien
+ 
+Je kan hier "standaard C" code testen.
+ * controle van syntax
+ * controle van output, casting, program flow,...
+ 
+Wat gaat niet:
+ * breakpoints plaatsen
+ * specifieke ARM, SmartFusion code compileren (uart.h, ace.h, ...)
