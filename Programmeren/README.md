@@ -2,6 +2,12 @@
 
 ## Opzoeken van informatie
 Praktisch voorbeeld: "Hoe werkt de UART juist?"
+
+Belangrijkste info: (bekijken voor je verder gaat)
+ * Documentatie per hardware module: rechtklikken op de blok in de Libero MSS configurator
+ * Elementair voorbeeldproject met een minimale hoeveelheid code: rechtklikken op de driver in het "configure firmaware" venster in Libero, dan "Generate sample project" ... "Softconsole" 
+
+Meer in detail:
  1. Bekijk via de MSS configurator in Libero de help file. (pdf document)
  2. Zoek naar een tutorial op de Microsemi website (of in de Github repo)
  3. Bekijk de broncode die je kan genereren voor iedere component: (uart.h)
