@@ -34,12 +34,12 @@ Wanneer je aan de potentiometer draait worden deze gegevens live aangepast.
 ## 2.2 .Uitlezen ADC 2 (Extra oefening)
 Deze oefening mag je maken, maar ze is niet verplicht.
 Enkele studenten hebben bij het fout aansluiten van de pinnen problemen met de hardware veroorzaakt. (stroompiek op USB poort)
-De pin meteen naast ADC2 is immers de GND. 
+De pin meteen naast ADC2 is immers de GND.
 
 Wanneer je per ongeluk:
  * de potentiometer volledig open gedraaid hebt (dus 5V op de de uitgang zet)
  * de connector in contact brengt met de pin naarst ADC (GND)
- * Dan zal er een grote stroom doorheen het SmartFusion bordje vloeien en bijgevolg een grote stroom over uw USB poort vloeien
+ * Dan zal er een grote stroom doorheen het SmartFusion bordje vloeien en bijgevolg een (te) grote stroom door uw USB poort vloeien
 
 Om eventuele verdere problemen te voorkomen is het beter om deze oefening niet te maken.
 

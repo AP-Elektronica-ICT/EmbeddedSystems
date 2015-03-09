@@ -1,5 +1,5 @@
-// Basic application for the SmartFusion development board
-// Copyright 2012-2013 Jeroen Doggen (jeroendoggen@gmail.com)
+// Basic application for the SmartFusion Evaluation board
+// Copyright 2015 Jeroen Doggen (jeroen.doggen@ap.be, jeroendoggen@gmail.com)
 
 int number = 0;	// Create a variable (to have something to look al while debugging
 

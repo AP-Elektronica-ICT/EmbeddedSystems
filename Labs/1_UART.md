@@ -53,23 +53,23 @@ Pas het voorbeeldprogramma aan door een eigen bibliotheek aan het project toe te
 
 Voeg de bibliotheek toe door rechts te klikken op het "app" project en selecteer "new -> header file" en nadien "new -> c source file". 
 
-Include uw header file in de main.c file om uw eigen functies te kunnen aanroepen.
- * myLib.h bevat de functie prototypes en de definities van constanten.
- * myLib.c bevat de implementatie van de functie prototypes
- 
+Include uw header file in de main.c file om uw eigen functies te kunnen aanroepen. (in de originele opgave stond vroeger "myLib.h" als je de opgave zo hebt afgegeven is dat uiteraard ook goed)
+ * myUART.h bevat de functie prototypes en de definities van constanten.
+ * myUART.c bevat de implementatie van de functie prototypes
+
 Pas het programma aan dat een zelf gekozen tekst die wordt gedefinieerd binnen uw myLib bestanden vanuit de main functie wordt afgedrukt.
  * Maak een functie: “printMyText()”: die een stukje tekst afdrukt
  * Maak een functie: “printThisText(message, length)”: die de eerste length letters tekst waarnaar wordt verwezen met message afdrukt
- 
+
 Het is de bedoeling om in de volgende opgaven voor dit semester steeds verder te werken in bibliotheek bestanden.
 
 Voorzie bovenaan de bibliotheek de nodige gegevens:
- * Naam en contractinformatie
+ * Naam en contactinformatie
  * Datum
  * Titel van de labo opgave
  * Korte omschrijving van de bibliotheek
  * Versie geschiedenis (indien van toepassing)
- 
+
 ## 1.3. UART read/write
 Pas het voorbeeldprogramma aan zodat characters die door de gebruiker worden ingetypt in het "putty-venster" worden ingelezen door de microcontroller. 
 
@@ -82,7 +82,7 @@ Laat je programma als volgt reageren op de ontvangen data:
 Als een letter, bijvoorbeeld "a", wordt doorgestuurd door de gebruiker wordt de volgende tekst afgedrukt:
  * ``De letter was:  a, de uppercase letter van a is A``
  * ``De letter was:  A, de lowercase letter van A is a``
- 
+
 Identiek verloop voor de andere letters van het alfabet.
 
 Als een cijfer, bijvoorbeeld 3, wordt doorgestuurd wordt de volgende tekst afgedrukt:
