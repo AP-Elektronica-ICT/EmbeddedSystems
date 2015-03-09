@@ -22,3 +22,11 @@ De instructie '__vector_table_vma_base_address = .;' moet vervolgens op lijn 49 
 "Clean & rebuild" daarna zowel uw hardware als uw app project. 
 
 Hierna zou de fout niet meer morgen verschijnen.
+
+## Verbose modus
+Om meer gedetailleerde informatie over het debug proces te bekomen kan je de debugger in "verbose" modus uitvoeren.
+
+Om deze modus in te schakeling zet je een extra "-v" flag in de Debug configuratie. 
+![screenshot](/Tips/SoftConsole/Debug/verboseMode_setting.png?raw=true "screenshot")(screenshot)
+
+![Screenshot](/Tips/SoftConsole/Debug/verboseMode_output.png?raw=true "Screenshot")(Screenshot) van output in "verbose modus".
