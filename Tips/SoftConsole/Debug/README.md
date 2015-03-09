@@ -27,6 +27,6 @@ Hierna zou de fout niet meer morgen verschijnen.
 Om meer gedetailleerde informatie over het debug proces te bekomen kan je de debugger in "verbose" modus uitvoeren.
 
 Om deze modus in te schakeling zet je een extra "-v" flag in de Debug configuratie. 
-![screenshot](/Tips/SoftConsole/Debug/verboseMode_setting.png?raw=true "screenshot")(screenshot)
+![screenshot](/Tips/SoftConsole/Debug/verboseMode_setting.PNG?raw=true "screenshot")(screenshot)
 
-![Screenshot](/Tips/SoftConsole/Debug/verboseMode_output.png?raw=true "Screenshot")(Screenshot) van output in "verbose modus".
+![Screenshot](/Tips/SoftConsole/Debug/verboseMode_output.PNG?raw=true "Screenshot")(Screenshot) van output in "verbose modus".
