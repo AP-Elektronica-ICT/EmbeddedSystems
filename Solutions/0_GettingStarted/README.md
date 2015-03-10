@@ -11,5 +11,5 @@ Beschrijving folders:
 Installatie:
  1. Open het "Opgave1_UART.pro" bestand met FlashPro en upload het naar je ontwikkelbord
  2. Open de SoftConsole workspace -> "switch workspace" -> selecteer de "SoftConsole" folder
- 3. Compileer het "app" project
+ 3. Compileer het "app" project (ctrl-b)
  4. Upload de binary naar je ontwikkelbord ("debug" -> "upload to board")

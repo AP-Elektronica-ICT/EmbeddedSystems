@@ -9,5 +9,5 @@ Beschrijving folders:
 Installatie:
  1. Open het "placeholder" bestand en upload het naar je ontwikkelbord d.m.v. FlashPro
  2. Open de SoftConsole workspace -> "switch workspace" -> selecteer de "SoftConsole" folder
- 3. Compileer het "app" project
+ 3. Compileer het "app" project (ctrl-b)
  4. Upload de binary naar je ontwikkelbord ("debug" -> "upload to board")
