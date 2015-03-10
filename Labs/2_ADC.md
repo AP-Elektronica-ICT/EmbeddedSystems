@@ -7,7 +7,7 @@ Configuur het hardware platform zodat je gebruik kan maken van de ADCs op het on
  * Voeg de ADC driver toe aan je SoftConsole workspace (zodat 
  * Schrijf code om de ADCs uit te lezen
  
-Voeg de benodigde code voor dit labo aan je eigen bibliotheek toe. (myLib.h en myLib.c)
+Voeg de benodigde code voor dit labo aan je eigen bibliotheek toe. (myADC.h en myADC.c)
 
 ## 2.1. Uitlezen ADC 0
 Installeer het voorbeeldprogramma beschreven in de tutorial 
@@ -23,7 +23,7 @@ De flags worden in de voorbeeldtoepassing namelijk gebruikt om de LEDs aan te st
 
 **Opgelet:** op pagina 23, 24 staat dat je het bestand ``newlibs_stub.c`` moet toevoegen in de build configuratie.
 Je mag deze stap overslaan.
-In de laaste versie van Libero gebeurt dit automatisch.
+In de laaste versie van Libero/SoftConsole gebeurt dit automatisch.
 Daarnaast is de uitleg ook niet volledig correct. (het bestand ``newlibs_stub.o`` zou moeten toegevoegd worden in die stap)
 
 Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie weer via de UART.

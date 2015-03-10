@@ -6,7 +6,7 @@ Configuur het hardware platform zodat je gebruik kan maken van de LEDs op het on
  * Voeg de GPIO driver toe aan je SoftConsole workspace
  * Schrijf code om de GPIO pinnen aan te sturen
  
-Voeg de benodigde code voor dit labo aan je eigen bibliotheek toe. (myLib.h en myLib.c)
+Voeg de benodigde code voor dit labo aan je eigen bibliotheek toe. (myGPIO.h en myGPIO.c)
 
 ### Verslaggeving
 Maak één gecomprimeerd .zip bestand dat alle gevraagde documenten bevat.
@@ -26,7 +26,7 @@ Op pagina 13 in dit document wordt beschreven hoe je de input en output pinnen k
 
 Zorg er voor dat de acht LEDs en twee pushbuttons kan aansturen/uitlezen.
 
-Meer info over de benodigde pinnen en instellingen kan je terugvinden op pagina 17 en 18 de 
+Meer info over de benodigde pinnen en instellingen kan je terugvinden op pagina 17 en 18 van de 
 [SmartFusion Evaluation Kit - User's Guide (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/4_Hardware/1_A2F_Eval_Kit_UserGuide.pdf).
 
 
@@ -46,7 +46,7 @@ Laat de LEDs een telsequentie weergeven die weergeeft hoeveel keer de drukknop r
 Lees de spanning over de ingebouwde potentiometer uit en geef deze waarde visueel weer door het aantal aangeschakelde LEDs te verhogen wanneer de spanning toeneemt.
 Hoe hoger de ingangspanning, hoe meer LEDs branden. (cfr. VU meter)
 
-## 3.4. Modus selectie
-Maak gebruik van twee drukknops om te wisselen tussen de drie voorgaande modi.
+## 3.4. GPIO Modus selectie
+Maak gebruik van twee drukknoppen om te wisselen tussen de drie voorgaande modi.
  * met drukknop één schakel je tussen de drie modi
  * met drukknop twee kan je het aantal pulsen tellen (zie opdracht 3.2)

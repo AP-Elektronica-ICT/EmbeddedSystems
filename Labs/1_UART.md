@@ -73,7 +73,7 @@ Voorzie bovenaan de bibliotheek de nodige gegevens:
 ## 1.3. UART read/write
 Pas het voorbeeldprogramma aan zodat characters die door de gebruiker worden ingetypt in het "putty-venster" worden ingelezen door de microcontroller. 
 
-Maak gebruik van de nodige functies (en voorbeeldcode) uit de UART bibliotheek om dit te implementeren met behulp van de correcte interrupt service routine.
+Maak gebruik van de nodige functies (en voorbeeldcode) uit de UART bibliotheek om deze opgave te implementeren met behulp van de correcte interrupt service routine.
 Lees het bestand "MSS_uart.h" in de drivers folder om te zien welke functies er bestaan en hoe je deze kan gebruiken.
 Voor elke functie staat hier steeds uitgelegd wat de return value is, wat de betekenis is van de parameters die je er aan kan doorgeven en een minimalistisch codevoorbeeld waar deze functie in gebruikt wordt.
 
