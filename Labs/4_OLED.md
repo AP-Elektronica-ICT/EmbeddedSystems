@@ -24,7 +24,7 @@ Installeer het voorbeeldprogramma beschreven in de tutorial
 [SmartFusion_Interfacing_with_OLED_using_I2C_AN.pdf (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/0_Tutorials/OLED%20display/SmartFusion_Interfacing_with_OLED_using_I2C_AN.pdf) 
 op het ontwikkelbord.
 
-Meer info over de benodigde pinnen en eigenschappen van het OLED display kan je terugvinden op pagina 19 en 20 van de  
+Meer info over de benodigde pinnen en eigenschappen van het OLED display kan je terugvinden op pagina 19 en 20 van de 
 [SmartFusion Evaluation Kit - User's Guide (pdf)](https://github.com/AP-Elektronica-ICT/EmbeddedSystems/raw/master/Documentation/4_Hardware/1_A2F_Eval_Kit_UserGuide.pdf).
 
 In de bovenstaande tutorial wordt verwezen naar voorbeeldcode die je kan downloaden van de Microsemi website.
@@ -65,7 +65,7 @@ Als een cijfer, bijvoorbeeld 3, wordt doorgestuurd wordt de volgende tekst afged
 
 Als het geen letter uit ons alfabet noch een cijfer was stuur je de tekst ``Error`` terug.
 
-Tip: deze opgave komt zo goed als volledig overeen met opgave "1.3. UART read/write". (hergebruik dus je code uit die opgave)
+**Tip:** deze opgave komt zo goed als volledig overeen met opgave "1.3. UART read/write". (hergebruik dus je code uit die opgave)
 
 ## 4.2. OLED & ADC
 Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie weer via de OLED.
@@ -73,15 +73,15 @@ Lees de waarde van de potentiometer uit d.m.v. de ADC en geef deze informatie we
 Wanneer je aan de potentiometer draait worden deze gegevens live aangepast.
  * Voorbeeld output: ``2,52 V``
 
-Tip: deze opgave komt zo goed als volledig overeen met opgave "2.1. Uitlezen ADC 0". (hergebruik dus je code uit die opgave)
+**Tip:** deze opgave komt zo goed als volledig overeen met opgave "2.1. Uitlezen ADC 0". (hergebruik dus je code uit die opgave)
 
 ## 4.3. Potentiometer & OLED
 Lees de spanning over de ingebouwde potentiometer uit en geef deze waarde visueel weer door het aantal aangeschakelde pixel op de OLED te verhogen wanneer de spanning toeneemt.
 Hoe hoger de ingangspanning, hoe meer pixels branden. (cfr. VU meter)
 
-Tip: deze opgave komt zo goed als volledig overeen met opgave "3.3. Potentiometer & LEDs". (hergebruik dus je code uit die opgave)
+**Tip:** deze opgave komt zo goed als volledig overeen met opgave "3.3. Potentiometer & LEDs". (hergebruik dus je code uit die opgave)
 
 ## 4.4. Modus selectie
 Maak gebruik van een drukknop om te wisselen tussen de drie voorgaande modi.
 
-Tip: deze opgave komt zo goed als volledig overeen met opgave "3.4. GPIO Modus selectie". (hergebruik dus je code uit die opgave)
+**Tip:** deze opgave komt zo goed als volledig overeen met opgave "3.4. GPIO Modus selectie". (hergebruik dus je code uit die opgave)
