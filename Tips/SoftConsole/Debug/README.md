@@ -28,8 +28,21 @@ Om meer gedetailleerde informatie over het debug proces te bekomen kan je de deb
 
 Om deze modus in te schakeling zet je een extra "-v" flag in de Debug configuratie.
 
-Screenshot van menu waar je dit kan instellen:
-![Screenshot van menu waar je dit kan instellen:](/Tips/SoftConsole/Debug/screenshots/verboseMode_setting.PNG?raw=true "screenshot menu")
+Screenshot van menu waar je verbose modus kan instellen:
+![Screenshot van menu waar je verbose modus kan instellen:](/Tips/SoftConsole/Debug/screenshots/verboseMode_setting.PNG?raw=true "screenshot menu verbose")
 
 Screenshot van output in "verbose modus":
 ![Screenshot van output in "verbose modus":](/Tips/SoftConsole/Debug/screenshots/verboseMode_output.PNG?raw=true "Screenshot verbose")
+
+## No memory map found 
+Wanneer je een error krijgt met de tekst "no memory map found" of "no registers..." wil dat zeggen dat de debugger geen correcte binary kan vinden om te uploaden naar je bordje.
+
+Dit kan twee oorzaken hebben:
+ * er is geen binary in je project (build werkt niet of build nog niet uitgevoerd)
+ * in je debug configuratie is een foute/geen binary geselecteerd
+ 
+Screenshot van menu waar je de Debug setttings kan instellen:
+![Screenshot van menu waar je de Debug setttings kan instellen:](/Tips/SoftConsole/Debug/screenshots/selectBinary.png?raw=true "screenshot menu Debug")
+In deze screenshot is een fout project geselecteerd.
+De binary van de eigen toepassing (gecompileerde vorm van je "main.c") staat immers in het "app" project en niet in het "hw" project.
+
