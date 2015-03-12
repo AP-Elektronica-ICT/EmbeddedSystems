@@ -39,7 +39,7 @@ Meer info: http://www.tutorialspoint.com/c_standard_library/c_function_sprintf.h
 A1:  http://www.embedded.com/story/OEG20010615S0107
 A2:  http://publications.gbdirect.co.uk/c_book/chapter8/const_and_volatile.html
 
-## Online code testsen
+## Online code testen
 Via onderstaande website kan je online C code testen.
  * http://www.tutorialspoint.com/compile_c_online.php
  
@@ -55,3 +55,13 @@ Je kan hier "standaard C" code testen.
 Wat gaat niet:
  * breakpoints plaatsen
  * specifieke ARM, SmartFusion code compileren (uart.h, ace.h, ...)
+
+## Bitwise operators in C
+In C kan je verschillende bitwise operaties uitvoeren op variabelen.
+
+Door rechts te klikken op een variabele in het SoftConsole (tijdens debuggen) kan je via "Format" kiezen om de variabele binair, hexadecimaal of decimaal weer te geven.
+
+Meer info:
+ * http://en.wikipedia.org/wiki/Bitwise_operations_in_C
+ * http://www.cprogramming.com/tutorial/bitwise_operators.html
+ * http://nl.wikibooks.org/wiki/Programmeren_in_C/Datatypes
