@@ -1,0 +1,97 @@
+Archive member included because of file (symbol)
+
+C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                              ./myGPIO/myGPIO.o (MSS_GPIO_config)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x4 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .bss.ledState0
+                0x00000000        0x1 ./main.o
+ .bss.ledState1
+                0x00000000        0x1 ./main.o
+ .bss.ledState2
+                0x00000000        0x1 ./main.o
+ .bss.ledState3
+                0x00000000        0x1 ./main.o
+ .text.GPIO8_IRQHandler
+                0x00000000       0x74 ./main.o
+ .text.GPIO9_IRQHandler
+                0x00000000       0x74 ./main.o
+ .text.main     0x00000000        0xc ./main.o
+ .text          0x00000000        0x0 ./myGPIO/myGPIO.o
+ .data          0x00000000        0x0 ./myGPIO/myGPIO.o
+ .bss           0x00000000        0x0 ./myGPIO/myGPIO.o
+ .text.MY_GPIO_init
+                0x00000000       0x90 ./myGPIO/myGPIO.o
+ .text.ledOn    0x00000000       0x20 ./myGPIO/myGPIO.o
+ .text.ledOff   0x00000000       0x20 ./myGPIO/myGPIO.o
+ .text          0x00000000        0x0 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .data          0x00000000        0x0 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .bss           0x00000000        0x0 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x3c C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .rodata.g_config_reg_lut
+                0x00000000       0x80 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .rodata.g_gpio_irqn_lut
+                0x00000000       0x40 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_init
+                0x00000000       0x6c C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_config
+                0x00000000       0x3c C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_set_output
+                0x00000000       0x40 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_drive_inout
+                0x00000000      0x128 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_enable_irq
+                0x00000000       0x64 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_disable_irq
+                0x00000000       0x50 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_clear_irq
+                0x00000000       0x50 C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./main.o
+LOAD ./myGPIO/myGPIO.o
+LOAD C:\embedded\GPIO\SoftConsole\GPIO_MSS_MSS_CM3_0\GPIO_MSS_MSS_CM3_0_hw_platform\Debug\libGPIO_MSS_MSS_CM3_0_hw_platform.a
+START GROUP
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+END GROUP
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_v11.4/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00002000                MAIN_STACK_SIZE = 0x2000
+                0x00001000                PROCESS_STACK_SIZE = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                
