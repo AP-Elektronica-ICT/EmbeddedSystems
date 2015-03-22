@@ -1,6 +1,6 @@
 <project name="Opgave3_GPIO" version="1.1">
     <ProjectDirectory>
-        C:\temp\flashpro\Opgave3_GPIO
+        C:\temp\flashpro new\Opgave3_GPIO
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\temp\flashpro\Opgave3_GPIO\Opgave3_GPIO.log
+        C:\temp\flashpro new\Opgave3_GPIO\Opgave3_GPIO.log
     </LogFile>
     <SerializationOption>
         Skip
