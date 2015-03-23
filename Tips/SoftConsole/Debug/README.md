@@ -46,3 +46,6 @@ Screenshot van menu waar je de Debug setttings kan instellen:
 In deze screenshot is een fout project geselecteerd.
 De binary van de eigen toepassing (gecompileerde vorm van je "main.c") staat immers in het "app" project en niet in het "hw" project.
 
+## No response from USB device (USB device not ready)
+Probeer je FlashPro programmer (bovenste USB poort) te verbinden met een andere USB poort op je PC.
+Sommige mensen hebben problemen wanneer ze de FlashPro programmer via een USB 3.0 poort verbinden.
