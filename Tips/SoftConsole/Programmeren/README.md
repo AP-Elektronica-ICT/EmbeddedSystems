@@ -65,3 +65,10 @@ Meer info:
  * http://en.wikipedia.org/wiki/Bitwise_operations_in_C
  * http://www.cprogramming.com/tutorial/bitwise_operators.html
  * http://nl.wikibooks.org/wiki/Programmeren_in_C/Datatypes
+ 
+## Overzicht shortcuts
+ * ctrl-b: build code
+ * ctrl-s: save
+ * ctrl-a: selecteer alle  code
+ * ctrl-i: fix indentation (wordt enkel toegepast op geselecteerde tekst -> dus eerst ctrl-a ingeven)
+ * ctrl-shift-f: fix coding style  
