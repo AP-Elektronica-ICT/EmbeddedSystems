@@ -29,9 +29,6 @@ Folder met documenten:
  * [Analoog](Documentation/3_Analoog) 
  * [Hardware](Documentation/4_Hardware)
 
-## Topics die later nog verschijnen:
- * coming soon
-
 ## Links:
  * [ECTS info (studiegids) ] (https://bamaflexweb.ap.be/BMFUIDetailxOLOD.aspx?a=85434&b=5&c=1)
  * [Blackboard cursus (login nodig) ] (https://blackboard.ap.be/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_5302_1&handle=cp_announcements&mode=cpview)
